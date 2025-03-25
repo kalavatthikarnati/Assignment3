@@ -1,0 +1,58 @@
+a{
+    text-decoration: none;
+    
+
+}
+ul li{
+    list-style: none;
+    text-align: left;
+    display: inline;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 8px;
+
+
+}
+ul li:hover{
+    background-color: blueviolet;
+    border-bottom: 2px;
+}
+ul li{
+    background-color: lavenderblush;
+    border: 3px solid orangered;
+}
+form{
+    text-align: center;
+}
+h1{
+    text-align: center;
+
+    
+}
+.bg {
+    
+    background-image: url("nature.jpg");
+    height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: ;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+.leftdiv{
+   /* display: inline-flex;*/
+   width :300px;
+    
+}
+.rightdiv{
+    display: inline;
+}
+.img{
+    display: inline-block;
+    width: 70px;
+}
+h1{
+    text-shadow: 2px 2px goldenrod;
+}

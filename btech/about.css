@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.navlist{
+    display: flex;
+    gap: 50px;
+    height: 15vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+ }
+ .navlist li{
+    list-style: none;
+     }
+    .navlist li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1rem;
+        color: #fff;
+    } 
+    .leftcontainer,.rightcontainer{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .leftcontainer{
+      background: black;
+      width: 70%;
+      padding-left: 3rem;
+    }
+    .rightcontainer{
+        background:  linear-gradient(-45dgr,blue, gray70% );
+        width: 30%;
+    }
+    .icons .fa-brands{
+        color: #bbb;
+        font-size: 1.7rem;
+        
+    }
+    .icons{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        height: 100vh;
+    }.content{
+        margin-left: 4rem;
+    }
+    .content h2{
+        font-size: 1.5rem;
+        color: #fff;
+    }.content h1{
+        font-size:4rem ;
+        color: blue;
+    }.content p{
+        font-size: 1.3rem;
+        color: #fff;
+    }
+    .design .circle{
+      aspect-ratio: 1;
+      position: absolute;
+      border-radius: 50%;
+      top: 50%;
+      left: 70%;
+      transform: translate(-50%, -50%);
+    }
+    .circle:nth-child(1){
+        background-color: liner-gradient(90dgr,transparent 50%,black 50%,gray 70%);
+        width: 38rem;
+    }
+    .circle:nth-child(2){
+        
+        width: 30rem;
+        background-image: url("/imagesgroup/kala1.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+
+    }

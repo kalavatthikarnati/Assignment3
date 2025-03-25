@@ -1,0 +1,21 @@
+a{
+    text-decoration: none;
+
+}
+ul li{
+    list-style: none;
+    text-align: right;
+    display: inline;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 8px;
+}
+ul li{
+    
+    border: 3px solid orangered;
+}
+}ul li:hover{
+    background-color: blueviolet;
+    border-bottom: 2px;
+}
